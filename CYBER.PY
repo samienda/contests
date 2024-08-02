@@ -51,6 +51,7 @@ for timestamp in range(int(start_time), int(end_time) + 1):
         print("Key found:", key.hex())
         print("Timestamp:", timestamp.hex())
         print("Decrypted plaintext:", decrypted.hex())
+        print()
         break
 else:
     print("Key not found within the time window.")
